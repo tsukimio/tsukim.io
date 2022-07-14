@@ -52,3 +52,16 @@ a:hover {
     margin-right: 1rem;
     transition: 0.7s ease;
 }
+
+@media (prefers-color-scheme: dark) {
+    .links {
+        color: #fff;
+    }
+    a:link, a:visited, a:hover, a:active, a {
+        color: #fff;
+    }
+
+    :root {
+        background-color: #000;
+    }
+}
