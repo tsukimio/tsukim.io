@@ -15,7 +15,7 @@
 
 h1 {
     font-family: 'Product Sans', sans-serif;
-    font-size: 8.5rem;
+    font-size: 9rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 1rem;
@@ -63,5 +63,14 @@ a:hover {
 
     :root {
         background-color: #000;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 5rem;
+    }
+    .links {
+        font-size: 1rem;
     }
 }
