@@ -9,6 +9,10 @@
     font-weight: bold;
 }
 
+:root {
+        background: linear-gradient(90deg, #FFF 0%, #E2F4F4 100%);
+    }
+
 ::selection {
     background: #7cc2ff73;
 }
@@ -54,15 +58,14 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+    :root {
+        background: linear-gradient(90deg, #000 0%, #1D1B1B 100%);
+    }
     .links {
         color: #fff;
     }
     a:link, a:visited, a:hover, a:active, a {
         color: #fff;
-    }
-
-    :root {
-        background-color: #000;
     }
 }
 
