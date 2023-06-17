@@ -24,10 +24,18 @@ h1 {
     text-align: center;
     margin-bottom: 1rem;
     margin-top: 20%;
-    background-image: url(/assets/images/bg.svg);
+    background:linear-gradient(to right,#efff72,#70ffae,#72e5ff, #747eff) left/300% 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation:change 15s infinite linear alternate;
 }
+
+@keyframes change {
+    to {
+      background-position:right;
+    }
+  }
 
 .links {
     display: flex;
